@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{08b65e68-b54f-4cda-9224-7b41b15a891b}</ProjectGuid>
-    <RootNamespace>Genericite</RootNamespace>
+    <ProjectGuid>{b7debb39-0220-4c2f-82b1-0974c717b0b4}</ProjectGuid>
+    <RootNamespace>ExoMyArrayTemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EquipeMoto.cpp" />
-    <ClCompile Include="Genericite.cpp" />
-    <ClCompile Include="Personne.cpp" />
+    <ClCompile Include="Exo_MyArrayTemplate.cpp" />
+    <ClCompile Include="MyArray.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EquipeMoto.h" />
-    <ClInclude Include="Personne.h" />
+    <ClInclude Include="MyArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

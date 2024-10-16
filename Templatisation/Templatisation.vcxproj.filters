@@ -15,21 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Genericite.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="EquipeMoto.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Personne.cpp">
+    <ClCompile Include="..\codes-cours-cpp\Exercices\Exo_MyArrayTemplate\Exo_MyArrayTemplate.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EquipeMoto.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Personne.h">
+    <None Include="..\codes-cours-cpp\Exercices\Exo_MyArrayTemplate\Exo_MyArrayTemplate.vcxproj" />
+    <None Include="..\codes-cours-cpp\Exercices\Exo_MyArrayTemplate\Exo_MyArrayTemplate.vcxproj.filters" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\codes-cours-cpp\Exercices\Exo_MyArrayTemplate\MyArray.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{08b65e68-b54f-4cda-9224-7b41b15a891b}</ProjectGuid>
-    <RootNamespace>Genericite</RootNamespace>
+    <ProjectGuid>{fa21cd1b-6e3f-4f20-a6b9-555ebf72a2dc}</ProjectGuid>
+    <RootNamespace>Dequeu</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EquipeMoto.cpp" />
-    <ClCompile Include="Genericite.cpp" />
-    <ClCompile Include="Personne.cpp" />
+    <ClCompile Include="Dequeu.cpp" />
+    <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EquipeMoto.h" />
-    <ClInclude Include="Personne.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
